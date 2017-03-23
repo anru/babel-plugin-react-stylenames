@@ -26,6 +26,7 @@ function getNodeValue(node) {
 }
 
 function makeSumExpression(t, a, b, ...rest) {
+  if (!b) return a;
   const e = t.binaryExpression('+', a, b);
   if (rest.length) {
     return makeSumExpression(t, e, ...rest);
