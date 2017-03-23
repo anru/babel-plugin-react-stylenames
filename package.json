@@ -1,6 +1,6 @@
 {
   "name": "@foxcomm/babel-plugin-react-stylenames",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Transforms styleName's to className's",
   "main": "src/index.js",
   "publishConfig": {
