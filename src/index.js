@@ -65,7 +65,6 @@ exports['default'] = function (_ref) {
         this.cnIdentifier = cnIdentifier;
       },
       JSXAttribute(path) {
-        window.p = path;
         const node = path.node;
 
         if (node.name.type == 'JSXIdentifier' && node.name.name == 'styleName') {
