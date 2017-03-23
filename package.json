@@ -1,8 +1,11 @@
 {
-  "name": "babel-plugin-react-stylenames",
+  "name": "@foxcomm/babel-plugin-react-stylenames",
   "version": "3.0.0",
   "description": "Transforms styleName's to className's",
   "main": "src/index.js",
+  "publishConfig": {
+    "registry": "https://npm.foxcommerce.com:4873"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
